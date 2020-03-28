@@ -1,0 +1,95 @@
+.h1 {color: darkgreen;
+    font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+    text-transform: uppercase;
+    font-size: 100px;
+   
+}
+
+
+.header-h2 {color: darkgreen;
+    font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+    font-size: 26px;
+    letter-spacing: 2px;
+   
+}
+
+@media (max-width: 736px) {
+.h1 {
+font-size: 60px !important;
+}
+
+.header-h2{
+     font-size: 20px !important;
+    }
+}
+        
+.navbar-nav li a {
+    color: darkgreen;
+    font-size: 32px;
+    text-transform: uppercase;
+     font-size: 32px;
+    font-weight:600;
+    
+}
+
+
+.card {
+    border: 0;
+    margin-bottom: 20px;
+}
+
+.card-text 
+{
+    font-size: 24px;
+}
+
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:50%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+
+
+.form-group input
+{
+    background: #FCFBFB;
+
+}
+
+
+.form-group textarea
+{
+    background: #FCFBFB;
+   
+}
+
+
+.navbar-nav li {
+    margin-right: 3em;
+  
+}
+
+
+.h {
+    text-align: center;
+}
+
+.card-body {
+    align-content: center;
+}
+
+footer {
+    margin-top: 10px;
+    padding: 2em;
+}
+
