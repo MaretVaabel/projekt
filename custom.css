@@ -1,3 +1,7 @@
+body{
+    font-family: Verdana, Geneva, sans-serif;
+    letter-spacing: 1.5px;
+}
 .h1 {color: darkgreen;
     font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
     text-transform: uppercase;
@@ -12,6 +16,23 @@
     letter-spacing: 2px;
    
 }
+.p { 
+    font-family: Verdana, Geneva, sans-serif;
+    letter-spacing: 2px;
+}
+.sots{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+input{
+    font-family: Verdana, Geneva, sans-serif;
+    letter-spacing: 1.5px;
+}
+textarea{
+    font-family: Verdana, Geneva, sans-serif;
+    letter-spacing: 1.5px;
+}
 
 @media (max-width: 736px) {
 .h1 {
@@ -25,9 +46,8 @@ font-size: 60px !important;
         
 .navbar-nav li a {
     color: darkgreen;
-    font-size: 32px;
+    font-size: 25px;
     text-transform: uppercase;
-     font-size: 32px;
     font-weight:600;
     
 }
@@ -37,10 +57,14 @@ font-size: 60px !important;
     border: 0;
     margin-bottom: 20px;
 }
-
+.card-title{
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
 .card-text 
 {
-    font-size: 24px;
+    font-size: 20px;
 }
 
 
@@ -93,3 +117,38 @@ footer {
     padding: 2em;
 }
 
+
+
+@media (max-width: 500px){
+    
+.p {
+    font-size: 12px;
+    }
+.sots{
+    flex-direction: column;
+    }
+    .s1 img {
+        margin-bottom:10px;
+    }
+.card-title{
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.card-text 
+{
+    font-size: 15px;
+}
+}
+@media (max-width: 350px){
+  .p {
+    font-size: 11px;
+      letter-spacing: 1px;
+    }  
+     .p h4{
+    font-size: 20px;
+      letter-spacing: 1px;
+    } 
+    .sots img{
+        width: 40px;
+    }
+}
